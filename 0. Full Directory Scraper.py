@@ -1,3 +1,5 @@
+#Python 3.13.5
+
 import io
 import os
 import time
@@ -10,7 +12,8 @@ import re
 import pandas as pd
 from bs4 import BeautifulSoup
 
-path = r'\\brg-dc-fs1\DCDATA6\Cases\Active\(051382) Prisma Health Network Adequacy Analysis\Data Loading\UHC Provider Directory\\'
+#INSERT PATHS TO RELEVANT LOCAL VARIABLES
+path = r'INSERT_PATH'
 inputs = path + r'Inputs\\'
 txt = path + r'Outputs\\NPI + Address\\PDF as String\\'
 outputs = path + r'Outputs\\NPI + Address\\'
